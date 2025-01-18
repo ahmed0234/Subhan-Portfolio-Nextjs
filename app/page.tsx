@@ -1,3 +1,4 @@
+"use client";
 import Blob from "@/components/Blob";
 import ContactForm from "@/components/Contactform";
 import Education from "@/components/Education";

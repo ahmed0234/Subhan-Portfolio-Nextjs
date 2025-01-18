@@ -10,7 +10,9 @@ const Experience = () => {
   useGSAP(
     () => {
       // Create a timeline for the animation
-      const tl = gsap.timeline({ defaults: { ease: "power3.out", duration: 0.6 } });
+      const tl = gsap.timeline({
+        defaults: { ease: "power3.out", duration: 0.6 },
+      });
 
       // Animate the numbers
       tl.from(".number", {
@@ -41,19 +43,25 @@ const Experience = () => {
         ease: "power2.out",
         paused: true,
         onComplete: () => {
-          gsap.to(".experience-item", { scale: 1, duration: 0.3, ease: "power2.out" });
+          gsap.to(".experience-item", {
+            scale: 1,
+            duration: 0.3,
+            ease: "power2.out",
+          });
         },
       });
 
       // Add hover effect
-      containerRef.current?.querySelectorAll(".experience-item").forEach((item) => {
-        item.addEventListener("mouseenter", () => {
-          gsap.to(item, { scale: 1.05, duration: 0.3, ease: "power2.out" });
+      containerRef.current
+        ?.querySelectorAll(".experience-item")
+        .forEach((item) => {
+          item.addEventListener("mouseenter", () => {
+            gsap.to(item, { scale: 1.05, duration: 0.3, ease: "power2.out" });
+          });
+          item.addEventListener("mouseleave", () => {
+            gsap.to(item, { scale: 1, duration: 0.3, ease: "power2.out" });
+          });
         });
-        item.addEventListener("mouseleave", () => {
-          gsap.to(item, { scale: 1, duration: 0.3, ease: "power2.out" });
-        });
-      });
     },
     { scope: containerRef } // Scope the animation to the container
   );

@@ -39,7 +39,7 @@ const Skills = () => {
 
         <div className="flex flex-col gap-6 items-center group ">
           <div className="py-10 px-11 bg-zinc-900 hover:bg-yellow-900 rounded-3xl flex items-center justify-center hover:border-2 hover:border-yellow-500 transition-all duration-300">
-            <Image src={`/davinci.png`} alt="skill" width={120} height={120} className="grayscale group-hover:grayscale-0"/>
+            <Image src={`/Davinci.png`} alt="skill" width={120} height={120} className="grayscale group-hover:grayscale-0"/>
           </div>
           <div>
             <h1 className="text-xl font-semibold">Davinci</h1>

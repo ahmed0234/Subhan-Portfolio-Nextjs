@@ -16,7 +16,7 @@ const testimonials = [
     name: "Avi Cohen",
     role: "Photoshop Artist",
     image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&auto=format&fit=crop&q=80",
+      "/avatar.png",
     content:
       "Subhan has been a real pleasure to deal with. He works quickly, is open to all sorts of feedback, and he's always got interesting suggestions that I otherwise wouldn't have considered. To top it all off, he's a genuinely good man who won't rest until you are completely satisfied with the final product. I highly recommend this freelancer.",
   },
@@ -24,7 +24,7 @@ const testimonials = [
     name: "Dave",
     role: "Vfx & CGI",
     image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&auto=format&fit=crop&q=80",
+      "/avatar.png",
     content:
       "Subhan does great work and is a great professional. He is constantly trying to find ways to improve and grow my project",
   },
@@ -32,7 +32,7 @@ const testimonials = [
     name: "Prasad",
     role: "Thumbnail Designing",
     image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&auto=format&fit=crop&q=80",
+      "/avatar.png",
     content:
       "Good helpful resource. Will work with him again",
   },
@@ -40,7 +40,7 @@ const testimonials = [
     name: "Roddy Hanson",
     role: "Script & ScreenPlay",
     image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&auto=format&fit=crop&q=80",
+      "/avatar.png",
     content:
       "Love working with Subhan he always does a great job.",
   },

@@ -54,7 +54,7 @@ const Header = () => {
     <header className="container flex flex-col gap-8 sm:flex-row lg:justify-center lg:items-center relative">
       <div className="HEADER_BACKGROUND_BLUR_GLOW_EFFECT absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 size-96  bg-yellow-500 rounded-full opacity-30 blur-3xl flex items-center justify-center animate-pulse"></div>
       <div className="JOIN flex flex-col gap-8 sm:flex-1 ">
-        <div className="HEADER_TITLE font-sans">
+        <div className="HEADER_TITLE font-sans order-2">
           <h3 className="font-semibold text-lg sm:text-xl xl:text-2xl 2xl:text-3xl">
             I am Subhan Shahid
           </h3>
@@ -64,7 +64,7 @@ const Header = () => {
             Artist
           </h1>
         </div>
-        <div className="HEADER_IMAGE px-4 sm:hidden">
+        <div className="HEADER_IMAGE px-4 sm:hidden order-1">
           <Image
             src={`https://myswmj0bx7.ufs.sh/f/S3rRKhy2jOuAEQXGFU02wE8qVfyuGZXvU4LFizTkRWtSKA70`}
             alt="Subhan Shahid"
@@ -74,7 +74,7 @@ const Header = () => {
           />
         </div>
 
-        <div className="HEADER_DESCRIPTION">
+        <div className="HEADER_DESCRIPTION order-3">
           <p className="font-sans text-sm sm:text-lg">
             Hey there, I'm Subhan Shahid, a multimedia artist fueled by a
             passion for creativity and innovation. With expertise in 3D
@@ -85,7 +85,7 @@ const Header = () => {
             collaborate and create something extraordinary together!
           </p>
         </div>
-        <div className="HEADER_SOCIALS flex flex-col gap-4 items-start xl:flex-row xl:items-center">
+        <div className="HEADER_SOCIALS flex flex-col gap-4 items-start xl:flex-row xl:items-center order-5">
           <div className="w-full sm:w-fit">
             <a href="https://drive.google.com/file/d/1VLy2ZXuMJ8_OSZ-22_Pf_GBL9H8Igjz0/view" target="_blank">
             <button className="w-full font-semibold lg:text-lg sm:w-fit px-6 py-3 flex gap-2 items-center border justify-center border-yellow-400 rounded-3xl text-yellow-500 hover:bg-yellow-400 hover:text-black transition-all duration-200 ease-in-out group">

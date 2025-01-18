@@ -108,7 +108,7 @@ export default function ContactForm() {
             <div>
               <h3 className="text-yellow-400 font-medium">Email</h3>
               <p className="text-yellow-400/80 font-semibold">
-                rajasubhan123456@gmail.com
+                subhanextra@gmail.com
               </p>
             </div>
           </div>

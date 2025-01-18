@@ -15,44 +15,22 @@ import { useState } from "react";
 
 const videoTestimonials = [
   {
-    name: "Sarah Johnson",
-    role: "CEO at TechCorp",
-    image:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&auto=format&fit=crop&q=80",
+    name: "Roddy",
+    role: "Photoshop Artist",
+    image: "/avatar.png",
     thumbnail:
       "https://images.unsplash.com/photo-1516387938699-a93567ec168e?w=800&auto=format&fit=crop&q=80",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/av1_VqNOxjA",
     duration: "2:15",
   },
   {
-    name: "Michael Chen",
-    role: "Lead Developer",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&auto=format&fit=crop&q=80",
+    name: "Avi Cohen",
+    role: "Script and ScreenPlay",
+    image: "/avatar.png",
     thumbnail:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    videoUrl: "https://www.youtube.com/embed/tALRj0qgEns",
     duration: "1:45",
-  },
-  {
-    name: "Emily Rodriguez",
-    role: "Product Manager",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&auto=format&fit=crop&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=80",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    duration: "3:10",
-  },
-  {
-    name: "David Kim",
-    role: "Marketing Director",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&auto=format&fit=crop&q=80",
-    thumbnail:
-      "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=800&auto=format&fit=crop&q=80",
-    videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    duration: "2:30",
   },
 ];
 
@@ -69,7 +47,10 @@ export function VideoTestimonialSlider() {
     <section className="w-full bg-zinc-950 py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold yellow_gradiet xl:text-6xl mb-4" id="Testimonials">
+          <h2
+            className="text-3xl sm:text-4xl font-bold yellow_gradiet xl:text-6xl mb-4"
+            id="Testimonials"
+          >
             Video Testimonials
           </h2>
           <p className="text-zinc-400 text-lg">

@@ -36,7 +36,7 @@ const Services = () => {
           <div className="SERVICES relative flex gap-6 items-center justify-between px-4 py-4 group cursor-pointer border-b">
             <div className="flex items-center justify-between">
               <h1 className="flex gap-4 items-center">
-                <span className="text-yellow-400 group-hover:text-black group-hover:rotate-90">
+                <span className="text-yellow-400 transition-all duration-300 group-hover:text-black group-hover:rotate-90">
                   01{" "}
                 </span>
                 <span className="text-3xl">Branding Design</span>
@@ -63,7 +63,7 @@ const Services = () => {
           <div className="SERVICES relative flex gap-6 items-center justify-between px-4 py-4 group cursor-pointer border-b">
             <div className="flex items-center justify-between">
               <h1 className="flex gap-4 items-center">
-                <span className="text-yellow-400 group-hover:text-black group-hover:rotate-90">
+                <span className="text-yellow-400 transition-all duration-300 group-hover:text-black group-hover:rotate-90">
                   02{" "}
                 </span>
                 <span className="text-3xl">Poster Designs</span>

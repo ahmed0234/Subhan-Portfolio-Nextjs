@@ -7,8 +7,16 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+
   images: {
-    domains: ["myswmj0bx7.ufs.sh"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "myswmj0bx7.ufs.sh",
+        port: "",
+        pathname: "/**",
+      },
+    ],
   },
 };
 

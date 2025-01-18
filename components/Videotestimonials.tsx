@@ -19,7 +19,7 @@ const videoTestimonials = [
     role: "Photoshop Artist",
     image: "/avatar.png",
     thumbnail:
-      "https://images.unsplash.com/photo-1516387938699-a93567ec168e?w=800&auto=format&fit=crop&q=80",
+      "https://myswmj0bx7.ufs.sh/f/S3rRKhy2jOuAUZDSQshofbcRnY24AymQFuBZlwxzPDH5TkXr",
     videoUrl: "https://www.youtube.com/embed/av1_VqNOxjA",
     duration: "2:15",
   },
@@ -28,7 +28,7 @@ const videoTestimonials = [
     role: "Script and ScreenPlay",
     image: "/avatar.png",
     thumbnail:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+      "https://myswmj0bx7.ufs.sh/f/S3rRKhy2jOuAAHYznI9oLSpd0vslm6PJn7ErRFHf4T1293xI",
     videoUrl: "https://www.youtube.com/embed/tALRj0qgEns",
     duration: "1:45",
   },

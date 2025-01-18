@@ -9,7 +9,7 @@ const Education = () => {
 
         <div className="MY_EXPERIENCE font-sans">
 
-          <div className="experience_title flex gap-2 items-center">
+          <div className="experience_title flex gap-2 items-center" id="Resume">
             <Award className="size-12 text-yellow-400"/>
             <h1 className="text-4xl yellow_gradiet font-semibold">Experience</h1>
           </div>

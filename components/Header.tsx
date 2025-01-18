@@ -87,14 +87,16 @@ const Header = () => {
         </div>
         <div className="HEADER_SOCIALS flex flex-col gap-4 items-start xl:flex-row xl:items-center">
           <div className="w-full sm:w-fit">
+            <a href="https://drive.google.com/file/d/1VLy2ZXuMJ8_OSZ-22_Pf_GBL9H8Igjz0/view" target="_blank">
             <button className="w-full font-semibold lg:text-lg sm:w-fit px-6 py-3 flex gap-2 items-center border justify-center border-yellow-400 rounded-3xl text-yellow-500 hover:bg-yellow-400 hover:text-black transition-all duration-200 ease-in-out group">
               Download CV
               <Download className="size-6 text-yellow-400 group-hover:text-black transition-all duration-200" />
             </button>
+            </a>
           </div>
           <div className="SOCIAL_ICONS flex items-center justify-center gap-4">
             <div className="ICON p-2 border border-yellow-400 rounded-full inline-block group hover:bg-yellow-400 transition-all duration-200 ease-in-out">
-              <a href="#">
+              <a href="https://www.upwork.com/freelancers/~01fc691ec1a320c941?mp_source=share" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="100"
@@ -108,12 +110,12 @@ const Header = () => {
               </a>
             </div>
             <div className="ICON p-2 border border-yellow-400 rounded-full inline-block group hover:bg-yellow-400 transition-all duration-200 ease-in-out">
-              <a href="#">
+              <a href="https://www.instagram.com/subhann.shahid/" target="_blank">
                 <Instagram className="size-5 lg:size-6 text-yellow-400 group-hover:text-black transition-all duration-200" />
               </a>
             </div>
             <div className="ICON p-2 border border-yellow-400 rounded-full inline-block group hover:bg-yellow-400 transition-all duration-200 ease-in-out">
-              <a href="#">
+              <a href="https://api.whatsapp.com/send/?phone=%2B923171511108&text=Can%20we%20talk?&type=phone_number&app_absent=0" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 32 32"

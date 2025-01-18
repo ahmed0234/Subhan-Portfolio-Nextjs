@@ -64,12 +64,15 @@ export default function ContactForm() {
             </div>
             <Select name="service" required>
               <SelectTrigger className="w-full bg-zinc-900/50 border-zinc-800 text-yellow-400">
-                <SelectValue placeholder="Web Design" />
+                <SelectValue placeholder="Choose a service" />
               </SelectTrigger>
               <SelectContent className="bg-zinc-900 border-zinc-800">
                 <SelectItem value="3D Modeling">3D Modeling</SelectItem>
                 <SelectItem value="Photoshop">Photoshop</SelectItem>
                 <SelectItem value="Video Editing">Video Editing</SelectItem>
+                <SelectItem value="VFX">VFX</SelectItem>
+                <SelectItem value="Blender">Blender</SelectItem>
+                <SelectItem value="Unreal Engine">Unreal Engine</SelectItem>
               </SelectContent>
             </Select>
             <Textarea
